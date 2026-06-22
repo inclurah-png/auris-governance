@@ -6,6 +6,9 @@ const clientsRoute = require('./routes/clients');
 const auditsRoute = require('./routes/audits');
 const findingsRoute = require('./routes/findings');
 const evidenceRoute = require('./routes/evidence');
+const reportsRoute = require('./routes/reports');
+const dashboardRoute = require('./routes/dashboard');
+const organisationsRoute = require('./routes/organisations');
 
 const app = express();
 
@@ -25,5 +28,8 @@ app.use('/clients', clientsRoute);
 app.use('/audits', auditsRoute);
 app.use('/findings', findingsRoute);
 app.use('/evidence', evidenceRoute);
+app.use('/reports', reportsRoute);
+app.use('/dashboard', dashboardRoute);
+app.use('/organisations', organisationsRoute);
 
 module.exports = app;
