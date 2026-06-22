@@ -5,6 +5,7 @@ const authRoute = require('./routes/auth');
 const clientsRoute = require('./routes/clients');
 const auditsRoute = require('./routes/audits');
 const findingsRoute = require('./routes/findings');
+const evidenceRoute = require('./routes/evidence');
 
 const app = express();
 
@@ -23,5 +24,6 @@ app.use('/auth', authRoute);
 app.use('/clients', clientsRoute);
 app.use('/audits', auditsRoute);
 app.use('/findings', findingsRoute);
+app.use('/evidence', evidenceRoute);
 
 module.exports = app;
