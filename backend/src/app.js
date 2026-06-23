@@ -9,7 +9,7 @@ const evidenceRoute = require('./routes/evidence');
 const reportsRoute = require('./routes/reports');
 const dashboardRoute = require('./routes/dashboard');
 const organisationsRoute = require('./routes/organisations');
-
+const usersRoute = require('./routes/users');
 const app = express();
 
 app.use(express.json());
@@ -31,5 +31,6 @@ app.use('/evidence', evidenceRoute);
 app.use('/reports', reportsRoute);
 app.use('/dashboard', dashboardRoute);
 app.use('/organisations', organisationsRoute);
+app.use('/users', usersRoute);
 
 module.exports = app;
