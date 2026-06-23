@@ -2,11 +2,25 @@ export default function Navigation() {
   return (
     <nav>
       <ul>
-        <li>Dashboard</li>
-        <li>Clients</li>
-        <li>Audits</li>
-        <li>Findings</li>
-        <li>Reports</li>
+        <li>
+          <a href="/">Dashboard</a>
+        </li>
+
+        <li>
+          <a href="/clients">Clients</a>
+        </li>
+
+        <li>
+          <a href="/audits">Audits</a>
+        </li>
+
+        <li>
+          <a href="/findings">Findings</a>
+        </li>
+
+        <li>
+          <a href="/login">Login</a>
+        </li>
       </ul>
     </nav>
   );
