@@ -1,8 +1,10 @@
+import Layout from './components/Layout';
+import Dashboard from './pages/Dashboard';
+
 export default function App() {
   return (
-    <div>
-      <h1>AURIS Governance</h1>
-      <p>AI Governance, Risk and Compliance Platform</p>
-    </div>
+    <Layout>
+      <Dashboard />
+    </Layout>
   );
 }
