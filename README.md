@@ -1,2 +1,15 @@
-# auris-governance
-AURIS GOVERNANCE — AI Compliance &amp; Ethics Auditing Platform | Node.js + React npm Workspaces Monorepo
+# AURIS Governance
+
+AI Governance, Risk, Audit and Compliance Platform.
+
+## Repository Structure
+
+- backend/ - Node.js Express API
+- frontend/ - React Frontend
+- database/ - SQL migrations
+- infrastructure/ - Deployment configurations
+- docs/ - Project documentation
+
+## Status
+
+Project currently under active development.
